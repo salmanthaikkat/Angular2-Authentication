@@ -1,0 +1,8 @@
+<div>
+  {{message}}
+    <form (submit)="login()">
+      <input type="text" [(ngModel)]="username" name="username" placeholder="Username"><br>
+      <input type="password" [(ngModel)]="password" name="password" placeholder="Password"><br>
+      <input type="submit" value="Login">
+    </form>
+  </div>

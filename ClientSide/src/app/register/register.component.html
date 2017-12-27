@@ -1,0 +1,10 @@
+<div>
+  {{message}}
+  <form (submit)="register()">
+    <input type="text" [(ngModel)]="username" name="username" placeholder="Username"><br>
+    <input type="email" [(ngModel)]="email" name="email" placeholder="Email"><br>
+    <input type="password" [(ngModel)]="password" name="password" placeholder="Password"><br>
+    <input type="password" [(ngModel)]="cpassword" name="cpassword" placeholder="Confirm Password"><br>
+    <input type="submit" value="Register">
+  </form>
+</div>
