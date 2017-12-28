@@ -3,8 +3,8 @@ Simple,Secure and Scalable angular2 application demonstrating simple authenticat
 
 QuickStart:
   * Run your MongoDB server
-  * Navigate to ServerSide folder and fireup the server.js file
-  * Navigate to ClientSide and run it using ng-serve--open
+  * Navigate to ServerSide folder,install dependencies(npm install) and fireup the server.js file
+  * Navigate to ClientSide,install dependencies and run it using ng-serve--open
   * Browser will start with http://localhost:4200/
   * That's all
 
